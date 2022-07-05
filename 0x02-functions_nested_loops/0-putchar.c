@@ -6,14 +6,11 @@
  */
 int main(void)
 {
-	char *sh = "main";
+	char word[9] = "main";
+	int i;
 
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
+	for (i = 0; i < 9; i++)
+		_putchar(word[i]);
 	_putchar('\n');
-
 	return (0);
 }
