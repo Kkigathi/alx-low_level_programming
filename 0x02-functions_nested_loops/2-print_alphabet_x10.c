@@ -5,7 +5,7 @@
  * alphabet in lowercase 10 times
  * Return: Nothing.
  */
-void 10x_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char i;
 	int j;
