@@ -4,19 +4,18 @@
  *x is the result
  *return: the last digit
  */
-
-int print_last_digit(int xyz)
+int print_last_digit(int nld)
 {
-	int uvw;
+	int pld;
 
-	uvw = (xyz % 10);
-	
-	if( uvw < 0)
+	pld = (nld % 10);
+
+	if (pld < 0)
 	{
-		uvw = ( -1 * uvw);
+		pld = (-1 * pld);
 	}
-	_putchar (uvw + 0);
-	_putchar('\n');
-	return (uvw);
+
+	_putchar(pld + '0');
+	return (pld);
 }
 	
