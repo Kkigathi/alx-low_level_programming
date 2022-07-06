@@ -5,13 +5,17 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void);
-{
-	char word[9] = "main";
-	int i;
 
-	for (i = 0; i < 9; i++)
-		_putchar(word[i]);
+int main(void)
+{
+	char *sh = "main";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	_putchar('\n');
+
 	return (0);
 }
