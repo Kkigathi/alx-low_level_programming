@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * jack_bauer - function inaprint every minute of the day
  * h = hour, m = minutes
