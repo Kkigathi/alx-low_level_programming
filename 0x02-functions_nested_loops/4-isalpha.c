@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Check lower
+ * _isalpha - Check lower
  * @c: An input character
  * Description: function uses _putchar function to check
  * alphabet in lowercase
@@ -10,12 +10,12 @@
 
 int _isalpha(int c)
 {
-	if (((c > 96) && (c < 123))|| ((c > 64) && (c < 91)))
+	if (((c > 96) && (c < 123)) || ((c > 64) && (c < 91)))
 	{
 	return (1);
 	}
 	else
 	{
-	return(0);
+	return (0);
 	}
 }
