@@ -5,17 +5,17 @@
  *return: the last digit
  */
 
- int print_last_digit(int x)
+ int print_last_digit(int xx)
 {
-	int y;
+	int yy;
 
-	y = (x % 10);
+	yy = (xx % 10);
 	
-	if( y < 0)
+	if( yy < 0)
 	{
-		y = ( -1 * y);
+		yy = ( -1 * yy);
 	}
-	_putchar (y + 0);
-	return (y);
+	_putchar (yy + 0);
+	return (yy);
 }
 	
