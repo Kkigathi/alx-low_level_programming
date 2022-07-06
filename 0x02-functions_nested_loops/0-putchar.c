@@ -8,13 +8,11 @@
 
 int main(void)
 {
-	char *sh = "main";
+	char word[8] = "_putchar";
+	int i;
 
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
 	_putchar('\n');
 
 	return (0);
