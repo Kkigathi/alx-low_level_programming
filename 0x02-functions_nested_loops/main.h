@@ -2,6 +2,6 @@
 #define MAIN_H
 
 int _putchar(char c)
-void printsomething (void)
+void printsomething(void)
 
 #endif

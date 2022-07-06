@@ -1,10 +1,12 @@
 #include "main.h"
-/**  *print kitu
+
+/**
+ * main - check the code
  *
- *
- *return nothing
+ * return : void
  */
-void printsomething (void)
+
+void printsomething(void)
 {
 	_putchar('s');
 	_putchar('o');
