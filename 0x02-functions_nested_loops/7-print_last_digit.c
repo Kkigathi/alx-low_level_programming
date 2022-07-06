@@ -15,7 +15,7 @@
 	{
 		y = ( -1 * y);
 	}
-	_putchar (x + 0);
+	_putchar (y + 0);
 	return (y);
 }
 	
