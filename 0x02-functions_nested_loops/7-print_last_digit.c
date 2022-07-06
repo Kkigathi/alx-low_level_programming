@@ -5,7 +5,7 @@
  *return: the last digit
  */
 
- int print_last_digit(int xyz)
+int print_last_digit(int xyz)
 {
 	int uvw;
 
