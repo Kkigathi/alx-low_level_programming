@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - function that prints every other character 
+ * puts2 - function that prints every other character
  * of a string starting from first
  * followed by new line
  * @str : input string
@@ -14,7 +14,7 @@ void puts2(char *str)
 
 	while (str[ln] != '\0')
 	{
-		_putchar (str[ln += 2]);
+		_putchar (str[0, ln += 2]);
 	}
 	_putchar ('\n');
 }
