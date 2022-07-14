@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * reverse_array - function that reverse the int in arrays
