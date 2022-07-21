@@ -3,7 +3,7 @@
  * factorial - function that finds  the factorial of n
  * @n: integer input
  *
- * Retrun: factorial of n
+ * Retrun: n!
  */
 
 int factorial(int n)
