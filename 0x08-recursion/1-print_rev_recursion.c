@@ -1,17 +1,15 @@
 #include "main.h"
 
 /**
- *_print_rev_recursion - Entry point
+ * _print_rev_recursion - Entry point
  * @s: input
- * return: 0 (successful)
+ * Return: Always 0 (Success)
  */
 void _print_rev_recursion(char *s)
 {
-	if(s != '\0')
-	
+	if (*s != '\0')
 		_print_rev_recursion(s + 1);
 	else
 		return;
-	_putchar (*s);
+	_putchar(*s);
 }
- 
