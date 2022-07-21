@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - Entry point
+ * _print_rev_recursion - point of commencement
  * @s: input
- * Return: Always 0 (Success)
+ * Return: 0 (on passing)
  */
 void _print_rev_recursion(char *s)
 {
