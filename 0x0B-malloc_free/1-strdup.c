@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /**
+ * _strdup - Returns a pointer to a newly-allocated space in memory
  *	unsigned int i=0;
  *	unsigned int c=0;
  *	char *copy;
