@@ -1,9 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-char *_strdup(char *str)
-
-/**	
+/**
  *	unsigned int i=0;
  *	unsigned int c=0;
  *	char *copy;
@@ -28,6 +26,8 @@ char *_strdup(char *str)
  * Return: If str == NULL or insufficient memory is available - NULL.
  *         Otherwise - a pointer to the duplicated string.
  */
+
+char *_strdup(char *str)
 {
 	char *copy;
 	int i, len = 0;
