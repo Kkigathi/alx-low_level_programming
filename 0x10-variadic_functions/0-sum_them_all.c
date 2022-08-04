@@ -17,10 +17,10 @@ int sum_them_all(const unsigned int n, ...)
 
 	var_start(nums, n);
 
-	for (i =0; i < n; index++)
+	for (i = 0; i < n; index++)
 		sum += var_arg(nums, int);
 
 	va_end(nums);
 
-	retuen (sum);
+	return(sum);
 }
